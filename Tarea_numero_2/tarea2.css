@@ -1,5 +1,5 @@
 .fondo {
-    width: 240px;
+    width: 260px;
     border: 2px solid black;
     background-color: #c4c4da;
 }
@@ -14,4 +14,14 @@
     border:1px solid #8c8cc7;
     background-color: #c4c4da;
     width: 50%;
+}
+
+.background{
+    background-color: rgb(252, 179, 150)
+}
+
+.tope{
+    width: 800px;
+    border: 1px solid #8c8cc7;
+    background-color: #c4c4da;
 }
