@@ -21,7 +21,9 @@
 }
 
 .tope{
-    width: 800px;
     border: 1px solid #8c8cc7;
+    margin: 2em;
+    padding: 1em;
+    width: 50%;
     background-color: #c4c4da;
 }
