@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fondo_negro{
+    position: relative;
+    width: 312px;
+    height: 574px;
+    background: #373735;
+}
+
+#boton_C{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_C{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_CE{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_CE{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+#boton_DEL{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+#letra_DEL{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_suma{
+    width: 78px;
+    height: 80px;
+    background: #C7AB76;
+    border: none;
+}
+
+#letra_suma{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_7{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_7{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_8{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_8{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_9{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_9{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_resta{
+    width: 78px;
+    height: 80px;
+    background: #C7AB76;
+    border: none;
+}
+
+#letra_resta{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_4{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_5{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_6{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_mult{
+    width: 78px;
+    height: 80px;
+    background: #C7AB76;
+    border: none;
+}
+
+#letra_mult{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_1{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_2{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_3{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_div{
+    width: 78px;
+    height: 80px;
+    background: #C7AB76;
+    border: none;
+}
+
+#letra_div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_punto{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_punto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_0{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_0{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_coma{
+    width: 78px;
+    height: 80px;
+    background: #5C8787;
+    border: none;
+}
+
+#letra_coma{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#boton_igual{
+    width: 78px;
+    height: 80px;
+    background: #E448CB;
+    border: none;
+}
+
+#letra_igual{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    color: #000000;
+}
+
+#mover{
+    position: absolute;
+    bottom: 0px;
+}
