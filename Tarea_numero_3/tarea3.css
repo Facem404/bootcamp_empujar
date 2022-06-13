@@ -1,9 +1,11 @@
 #fondo_negro{
-    position: relative;
     width: 312px;
     height: 574px;
     background: #373735;
     border: blue solid 7px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #letra_syntax{
@@ -54,9 +56,4 @@
     font-weight: 400;
     font-size: x-large;
     color: #000000;
-}
-
-#mover{
-    position: absolute;
-    bottom: 0px;
 }
