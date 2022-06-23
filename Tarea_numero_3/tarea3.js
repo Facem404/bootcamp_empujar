@@ -1,13 +1,13 @@
-// declaracion de variables
+// Declaracion de variables
 let operandoa;
 let operandob;
 let operacion;
 let resultado;
 
-// variable de la pantalla de la calculadora
+// Variable de la pantalla de la calculadora
 let display = document.getElementById("letra_syntax");
 
-// agregar numero a la pantalla
+// Agregar numero a la pantalla
 function addNumDisplay(numberText) {
   display.innerText += numberText;
 }
@@ -38,7 +38,7 @@ function divValues(valor1, valor2) {
   return resultado
 }
 
-//le agregamos la funcionalidad a cada boton dependiendo de la operacion
+// Le agregamos la funcionalidad a cada boton dependiendo de la operacion
 function sumar() {
   operandoa = parseFloat(display.innerText);
   operacion = "+";
@@ -67,6 +67,7 @@ function dividir() {
   cleanDisplay()
 }
 
+// Creacion del Operando B y aplicacion del resultado final segun el simbolo 
 function operandob_mas_resultado_final() {
   operandob = parseFloat(display.innerText)
 
