@@ -9,14 +9,15 @@
 </head>
 <body>
     <main id="fondo_negro">
-        <p id="letra_syntax">Syntax error</p>
+        <div id="letra_syntax"></div>
         <div>
-            <button class="boton_verdeagua"><p class="estilos_letra">C</p></button><button class="boton_verdeagua"><p class="estilos_letra">CE</p></button><button class="boton_verdeagua"><p class="estilos_letra">DEL</p></button><button class="boton_mostaza"><p class="estilos_letra">+</p></button>
-            <button class="boton_verdeagua"><p class="estilos_letra">7</p></button><button class="boton_verdeagua"><p class="estilos_letra">8</p></button><button class="boton_verdeagua"><p class="estilos_letra">9</p></button><button class="boton_mostaza"><p class="estilos_letra">-</p></button>
-            <button class="boton_verdeagua"><p class="estilos_letra">4</p></button><button class="boton_verdeagua"><p class="estilos_letra">5</p></button><button class="boton_verdeagua"><p class="estilos_letra">6</p></button><button class="boton_mostaza"><p class="estilos_letra">*</p></button>
-            <button class="boton_verdeagua"><p class="estilos_letra">1</p></button><button class="boton_verdeagua"><p class="estilos_letra">2</p></button><button class="boton_verdeagua"><p class="estilos_letra">3</p></button><button class="boton_mostaza"><p class="estilos_letra">/</p></button>
-            <button class="boton_verdeagua"><p class="estilos_letra">.</p></button><button class="boton_verdeagua"><p class="estilos_letra">0</p></button><button class="boton_verdeagua"><p class="estilos_letra">,</p></button><button id="boton_igual"><p class="estilos_letra">=</p></button>
+            <button onclick="cleanDisplay()" class="boton_verdeagua"><p class="estilos_letra">C</p></button><button onclick="cleanDisplay()" class="boton_verdeagua"><p class="estilos_letra">CE</p></button><button onclick="cleanDisplay()" class="boton_verdeagua"><p class="estilos_letra">DEL</p></button><button onclick="sumar()" class="boton_mostaza"><p class="estilos_letra">+</p></button>
+            <button  onclick="addNumDisplay('7')" class="boton_verdeagua"><p class="estilos_letra">7</p></button><button onclick="addNumDisplay('8')" class="boton_verdeagua"><p class="estilos_letra">8</p></button><button onclick="addNumDisplay('9')" class="boton_verdeagua"><p class="estilos_letra">9</p></button><button onclick="restar()" class="boton_mostaza"><p class="estilos_letra">-</p></button>
+            <button  onclick="addNumDisplay('4')" class="boton_verdeagua"><p class="estilos_letra">4</p></button><button onclick="addNumDisplay('5')" class="boton_verdeagua"><p class="estilos_letra">5</p></button><button onclick="addNumDisplay('6')" class="boton_verdeagua"><p class="estilos_letra">6</p></button><button onclick="multiplicar()" class="boton_mostaza"><p class="estilos_letra">*</p></button>
+            <button  onclick="addNumDisplay('1')" class="boton_verdeagua"><p class="estilos_letra">1</p></button><button onclick="addNumDisplay('2')" class="boton_verdeagua"><p class="estilos_letra">2</p></button><button onclick="addNumDisplay('3')" class="boton_verdeagua"><p class="estilos_letra">3</p></button><button onclick="dividir()" class="boton_mostaza"><p class="estilos_letra">/</p></button>
+            <button class="boton_verdeagua"><p class="estilos_letra">.</p></button><button onclick="addNumDisplay('0')" class="boton_verdeagua"><p class="estilos_letra">0</p></button><button class="boton_verdeagua"><p class="estilos_letra">,</p></button><button onclick="operandob_mas_resultado_final()" class="boton_mostaza"><p class="estilos_letra">=</p></button>
         </div>
     </main>
+    <script src="tarea3.js"></script>
 </body>
 </html>
