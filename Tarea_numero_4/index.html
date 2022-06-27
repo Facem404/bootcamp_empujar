@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduccion a JS</title>
+    <title>Pokedex</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <main></main>
+    
+        <div id="pokedex">
+            <div id="paginaizquierda">
+                <div class="botoncitos">
+                    <i class='bx bxs-circle' style='color:#1a81c3' id="grandesin" ></i>
+                    <i class='bx bxs-circle' style='color:#deba35' ></i>
+                    <i class='bx bxs-circle' style='color:#3bc333' ></i>
+                    <i class='bx bxs-circle' style='color:#c52730' ></i>
+                </div>
+                <div class="pantallita">
+                    <div class="fotito">
+                        <div class="img">
+                        </div>
+                        <h2>SQUIRTLE</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble.</p>
+                    </div>
+                </div>
+                <div class="tipo container">
+                    <label>TIPO:</label>
+                    <button>AGUA</button>
+                    
+                </div>
+                <div class="debilidad container">
+                    <label>DEBILIDAD:</label>
+                    <button class="verde">PLANTA</button>
+                    <button class="amarillo">ELÉCTRICO</button>
+                </div>
+                <div class="segundapantallita container">
+
+                </div>
+                <div class="evoluciones container">
+                    <h3>EVOLUCIONES:</h3>
+                    <div class="evoluciones_grid"></div>
+                </div>
+            </div>
+            <div id="paginaderecha">
+            </div>
+        </div>
+    
 </body>
 </html>
