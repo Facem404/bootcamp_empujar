@@ -76,8 +76,8 @@ text-shadow: 3px 3px black;
     margin-bottom: 1rem;
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
-.imgsquirtle{
-    background-image: url(imagenes/vamoacalmarno.png);
+.imgclefairy{
+    background-image: url(imagenes/Clefairy.png);
     background-size: 13rem;
     background-repeat: no-repeat;
     height: 80%;
@@ -110,7 +110,7 @@ label{
 }
 .tipo button{
     border-radius: .5rem;
-    background-color: rgb(52, 94, 183);
+    background-color: rgb(227, 140, 198);
     color: rgb(4, 4, 4);
     font-size: 1.2rem;
     width: 10rem;
@@ -128,12 +128,12 @@ label{
     font-family:  'Press Start 2P', cursive;
     padding: .5rem;
 }
-.verde{
-    background-color: rgb(28, 145, 47);
+.gris{
+    background-color: rgb(144, 146, 145);
     width: 12rem;
 }
-.amarillo{
-    background-color: rgb(228, 191, 42);
+.violeta{
+    background-color: rgb(134, 43, 195);
     width:16rem ;
 }
 .segundapantallita{
@@ -168,7 +168,7 @@ label{
     font-size: 1.2rem;
 }
 .evolucion1{
-    background-image: url(imagenes/vamoacalmarno.png);
+    background-image: url(evoluciones/clefairy/cleffa.png);
     background-size: 13rem;
     grid-column: 1;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ label{
     margin: 2rem;
 }
 .evolucion2{
-    background-image: url(evoluciones/squirtle/wartortle.png);
+    background-image: url(imagenes/Clefairy.png);
     background-size: 13rem;
     grid-column: 2;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ label{
     margin: 2rem;
 }
 .evolucion3{
-    background-image: url(evoluciones/squirtle/blastoise.png);
+    background-image: url(evoluciones/clefairy/cleffable.png);
     background-size: 13rem;
     grid-column: 3;
     background-repeat: no-repeat;
