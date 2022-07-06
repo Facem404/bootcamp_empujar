@@ -11,3 +11,18 @@ let p4 = document.getElementById("p4")
 let enlace4 = document.getElementById("enlace4")
 let img4 = document.getElementById("img4")
 
+const ocultarParrafo = () => {
+    p1.style.display = "none";
+}
+
+const ocultarParrafo2 = () => {
+    p4.style.display = "none";
+}
+
+const animacionImagen = () => {
+    img2.style.transform = "rotate(180deg)"
+}
+
+enlace1.addEventListener("click", ocultarParrafo, false)
+enlace2.addEventListener("click", animacionImagen, false)
+enlace4.addEventListener("click", ocultarParrafo2,false)
