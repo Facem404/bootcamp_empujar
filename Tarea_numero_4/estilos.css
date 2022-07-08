@@ -8,12 +8,20 @@ html{
     font-size: 62.5%;
 }
 
+@keyframes animacion{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(20deg);}
+    50% {transform: rotate(-20deg);}
+    75% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
 body{
     font-size: 1.6rem;
     background-image: url(imagenes/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 .container{
     margin: 0 auto;
@@ -82,7 +90,9 @@ text-shadow: 3px 3px black;
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .fotito h2{
@@ -526,7 +536,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipoclefa button{
     border-radius: .5rem;
@@ -633,7 +645,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipowiggly button1{
     border-radius: .5rem;
@@ -719,7 +733,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipobells button1{
     border-radius: .5rem;
@@ -819,7 +835,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipohydre button1{
     border-radius: .5rem;
@@ -913,7 +931,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipomagi button{
     border-radius: .5rem;
@@ -984,7 +1004,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipomarill button1{
     border-radius: .5rem;
@@ -1070,7 +1092,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipomew button{
     border-radius: .5rem;
@@ -1132,7 +1156,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipopiplup button{
     border-radius: .5rem;
@@ -1207,7 +1233,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipopsy button{
     border-radius: .5rem;
@@ -1279,7 +1307,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
-    
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tiposala button1{
     border-radius: .5rem;
@@ -1370,6 +1400,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tiposnorlax button{
     border-radius: .5rem;
@@ -1440,6 +1473,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipoteddi button{
     border-radius: .5rem;
@@ -1514,6 +1550,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipozoro button{
     border-radius: .5rem;
@@ -1584,6 +1623,9 @@ label{
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .tipoditto button{
     border-radius: .5rem;
