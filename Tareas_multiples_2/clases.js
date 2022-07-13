@@ -40,25 +40,23 @@ class Cuenta_Bancaria{
         console.log("Apellido: " + this.apellido)
         console.log("Fecha de ultima extraccion: " + this.fechaUltimaExtraccion)
         console.log("Fecha de ultimo deposito: " + this.fechaUltimoDeposito)
-        console.log("Fecha de hoy: " + this.fecha)
-        return 0
+        return console.log("Fecha de hoy: " + this.fecha)
     }
 
     mostrarSaldo(){
-        console.log("Saldo actual: " + this.saldo)
-        return 0
+        return console.log("Saldo actual: " + this.saldo)
     }
 
     realizarDeposito(montoDepositar){
         this.saldo = this.saldo + montoDepositar
         this.fechaUltimoDeposito = this.fecha
-        return 0
+        return console.log("Deposito realizado con exito.")
     }
 
     realizarExtraccion(montoExtraer){
         this.saldo = this.saldo - montoExtraer
         this.fechaUltimaExtraccion = this.fecha
-        return 0
+        return console.log("Extraccion realizada con exito.")
     }
 }
 
