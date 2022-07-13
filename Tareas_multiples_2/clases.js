@@ -1,32 +1,65 @@
-let persona = {
-    nombre : "Pepe",
-    apellido : "Perez",
-    fecha_nac : 2001,
-    edad : function(){
-        return 2022 - this.fecha_nac
-    },
-    MostrarDatos: function(){
-        console.log("Nombre: " + this.nombre + " " + this.apellido + " " + "Edad: " + this.edad())
+class Persona{
+
+    constructor(nombre,apellido,fecha_nacimiento){
+        this.nombre = nombre
+        this.apellido = apellido
+        this.fecha_nacimiento = fecha_nacimiento
+    }
+
+    calcularEdad(){
+        return 2022 - this.fecha_nacimiento
+    }
+
+    mostrarDatos(){
+        console.log("Nombre: " + this.nombre + "\nApellido: " + this.apellido + "\n" + "Edad: " + this.calcularEdad())
     }
 }
 
-let cuenta_bancaria = {
+let persona = new Persona("Pedrito","Perez",2001)
 
-    nombre:"Pedro",
-    apellido:"Perez",
-    saldo:1000,
-    fechaUltimaExtraccion:"24/3",
-    fechaUltimoDeposito:"25/5",
-    verDatos: function(){
-        console.log("Nombre: "+ this.nombre +" "+ this.apellido + "\nFecha ultima extraccion: "+this.fechaUltimaExtraccion+"\nFecha ultimo deposito: "+this.fechaUltimoDeposito)
-    },
-    mostrarSaldo: function(){
-        console.log("Saldo: " + this.saldo)
-    }, 
-    realizarDeposito:function(monto,fecha_hoy){
-        this.saldo = this.saldo + monto
-    },
-    realizarExtraccion:function(monto,fecha_hoy){
-        this.saldo = this.saldo - monto
-    },
+let fechaDeHoy = new Date()
+let dia = fechaDeHoy.getDate()
+let mes = fechaDeHoy.getMonth() +1
+let anio = fechaDeHoy.getFullYear()
+
+let fecha = String(dia + "/" + mes + "/" + anio)
+
+class Cuenta_Bancaria{
+
+    constructor(nombre,apellido,saldo,fechaUltimaExtraccion,fechaUltimoDeposito,fecha){
+        this.nombre = nombre
+        this.apellido = apellido
+        this.saldo = saldo
+        this.fechaUltimaExtraccion = fechaUltimaExtraccion
+        this.fechaUltimoDeposito = fechaUltimoDeposito
+        this.fecha = fecha
+    }
+
+    verDatos(){
+        console.log("Nombre: " + this.nombre)
+        console.log("Apellido: " + this.apellido)
+        console.log("Fecha de ultima extraccion: " + this.fechaUltimaExtraccion)
+        console.log("Fecha de ultimo deposito: " + this.fechaUltimoDeposito)
+        console.log("Fecha de hoy: " + this.fecha)
+        return 0
+    }
+
+    mostrarSaldo(){
+        console.log("Saldo actual: " + this.saldo)
+        return 0
+    }
+
+    realizarDeposito(montoDepositar){
+        this.saldo = this.saldo + montoDepositar
+        this.fechaUltimoDeposito = this.fecha
+        return 0
+    }
+
+    realizarExtraccion(montoExtraer){
+        this.saldo = this.saldo - montoExtraer
+        this.fechaUltimaExtraccion = this.fecha
+        return 0
+    }
 }
+
+let cuentaBanco = new Cuenta_Bancaria("Facundo","Maggi",1000,"1/5/2022","2/5/2022",fecha)
